@@ -35,7 +35,8 @@ Content-Type: application/json
 
 Body: {
   "nome": "Produto A",
-    "preco": 100.0
+  
+  "preco": 100.0
  
 }
 
@@ -47,6 +48,7 @@ Content-Type: application/json
 
 Body: {
   "nome": "Produto A Atualizado",
+  
   "preco": 150.0
 }
 
