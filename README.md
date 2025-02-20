@@ -15,7 +15,7 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida
 - **Java 17**
 - **Spring Boot**
 - **Spring Data JPA**
-- **H2 Database** (Banco de dados em memória, pode ser substituído por outro banco de dados como MySQL, PostgreSQL, etc.)
+- **PostgreSQL** 
 
 ## Endpoints da API
 
@@ -30,10 +30,15 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida
 
 ## Criar um novo produto
 POST /produtos
+
 Content-Type: application/json
+
 Body: {
+
   "nome": "Produto A",
+  
   "preco": 100.0
+  
 }
 
 ##Atualizar um produto existente
